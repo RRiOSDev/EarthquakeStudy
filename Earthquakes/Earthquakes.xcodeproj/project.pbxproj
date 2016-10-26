@@ -13,6 +13,8 @@
 		E21D8EE11DC018BD0081D501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21D8EE01DC018BD0081D501 /* Assets.xcassets */; };
 		E21D8EE41DC018BD0081D501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21D8EE21DC018BD0081D501 /* LaunchScreen.storyboard */; };
 		E21D8EEC1DC01D750081D501 /* Earthquake.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D8EEB1DC01D750081D501 /* Earthquake.swift */; };
+		E21D8EEE1DC0348A0081D501 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D8EED1DC0348A0081D501 /* NetworkManager.swift */; };
+		E21D8EF01DC0351A0081D501 /* NetworkManagerEnumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D8EEF1DC0351A0081D501 /* NetworkManagerEnumerations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E21D8EE31DC018BD0081D501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E21D8EE51DC018BD0081D501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21D8EEB1DC01D750081D501 /* Earthquake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Earthquake.swift; sourceTree = "<group>"; };
+		E21D8EED1DC0348A0081D501 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E21D8EEF1DC0351A0081D501 /* NetworkManagerEnumerations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerEnumerations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		E21D8ED81DC018BD0081D501 /* Earthquakes */ = {
 			isa = PBXGroup;
 			children = (
+				E21D8EED1DC0348A0081D501 /* NetworkManager.swift */,
+				E21D8EEF1DC0351A0081D501 /* NetworkManagerEnumerations.swift */,
 				E21D8ED91DC018BD0081D501 /* AppDelegate.swift */,
 				E21D8EDB1DC018BD0081D501 /* ViewController.swift */,
 				E21D8EDD1DC018BD0081D501 /* Main.storyboard */,
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E21D8EEE1DC0348A0081D501 /* NetworkManager.swift in Sources */,
+				E21D8EF01DC0351A0081D501 /* NetworkManagerEnumerations.swift in Sources */,
 				E21D8EDC1DC018BD0081D501 /* ViewController.swift in Sources */,
 				E21D8EEC1DC01D750081D501 /* Earthquake.swift in Sources */,
 				E21D8EDA1DC018BD0081D501 /* AppDelegate.swift in Sources */,
@@ -303,6 +311,7 @@
 				E21D8EEA1DC018BD0081D501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
